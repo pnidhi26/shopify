@@ -1,6 +1,17 @@
-# Payload E-Commerce Template
+# Shopify
 
-This is the official [Payload E-Commerce Template](https://github.com/payloadcms/payload/blob/main/templates/ecommerce). Use it to power e-commerce businesses and online stores of all sizes. This repo includes a fully-working backend, enterprise-grade admin panel, and a beautifully designed, production-ready website.
+npm install --legacy-peer-deps
+brew install yarn
+
+npm run dev
+yarn payload generate:graphQLSchema
+npm install @payloadcms/plugin-cloud-storage
+
+### Tech Stack:
+Next 14, Stripe, CMS, Payload 
+
+
+This is the official [Shopify](https://github.com/payloadcms/payload/blob/main/templates/ecommerce). Use it to power e-commerce businesses and online stores of all sizes. This repo includes a fully-working backend, enterprise-grade admin panel, and a beautifully designed, production-ready website.
 
 This template is right for you if you are selling:
 
@@ -30,7 +41,7 @@ If you have not done so already, you need to have standalone copy of this repo o
 
 #### Method 1 (recommended)
 
-  Go to Payload Cloud and [clone this template](https://payloadcms.com/new/clone/ecommerce). This will create a new repository on your GitHub account with this template's code which you can then clone to your own machine.
+Go to Payload Cloud and [clone this template](https://payloadcms.com/new/clone/ecommerce). This will create a new repository on your GitHub account with this template's code which you can then clone to your own machine.
 
 #### Method 2
 
