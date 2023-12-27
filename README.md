@@ -11,13 +11,13 @@ https://shopify.payloadcms.app/
 Next 14, Stripe, CMS, Payload 
 
 ### Install the important dependencies:
-npm install --legacy-peer-deps
-brew install yarn
-npm install @payloadcms/plugin-cloud-storage
+- npm install --legacy-peer-deps
+- brew install yarn
+- npm install @payloadcms/plugin-cloud-storage
 
 ### Run this code on local:
-npm run dev
-yarn payload generate:graphQLSchema
+- npm run dev
+- yarn payload generate:graphQLSchema
 
 
 
